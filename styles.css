@@ -1,0 +1,53 @@
+:root{
+    --top: 'Sacramento', cursive;
+    --title: 'Merriweather', serif;
+    --text: 'Kalnia', serif;;
+}
+
+html{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: var(--top);
+}
+
+h2{
+    font-family: var(--title);
+}
+
+p{
+    font-family: var(--text);
+}
+
+.gradient-background{
+    background: radial-gradient(859px at 10% 20%, rgb(248, 228, 175) 0%, rgb(170, 110, 92) 90%);
+}
+
+.py-5{
+    height: 100vh;
+}
+
+/*Me*/
+
+.icon-square {
+    padding: 0;
+    margin: 0;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+}
+
+.profile-img{
+    margin
+}
+
+.text-body-emphasis{
+    font-size: 3rem;
+}
+
+.text{
+    font-size: 2rem;
+    margin-top: 2rem;
+}
